@@ -1,0 +1,16 @@
+body {
+    width: auto;
+    user-select: none;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:link,a:active,a:hover {
+    color: #444;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
