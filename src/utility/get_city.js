@@ -31,7 +31,6 @@ function getPosition() {
 
 export default  async function get_city(){
     let position = await getPosition();
-    console.log(position);
     let {data: res}= await axios.get('https://geoapi.qweather.com/v2/city/lookup', {params:{
         location: position,
         key

@@ -65,6 +65,7 @@ let air = store.state.air;
     background-color: #427bff;
     height: 100%;
     border-radius: 5px;
+    min-width: 8%;
 }
 .progress {
     background-color: #e9ecef;
